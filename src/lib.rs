@@ -511,6 +511,7 @@
 #[cfg(feature = "alloc")]
 extern crate alloc;
 
+pub mod bench_chrono;
 mod time_delta;
 #[cfg(feature = "std")]
 #[doc(no_inline)]
