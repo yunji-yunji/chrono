@@ -19,7 +19,7 @@ fn run(start: i32, end: i32, div: i32,
     let res0 = bench_date_from_ymd(year, month, day);
     println!("- res0: {:?}", res0);
 
-    // BUG FOUND?
+    // BUG FOUND? (discrepancy)
     bench_datetime_to_string(year, month, day, hour, min, sec, nano, pst_sec);
 
     // assert!(start < end);
